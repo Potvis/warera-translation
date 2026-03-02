@@ -9,8 +9,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
-"Language: \n"
+"Last-Translator: HESEKKA\n"
+"Language: tr\n"
 "Language-Team: \n"
 
 #. placeholder {0}: user.data.mute.reason
@@ -102,7 +102,7 @@ msgstr "Yatırımın %{0} kadarı"
 
 #: src/components/_military/battle/BattleName.tsx:141
 msgid "{battleIcon}Resistance battle for {regionName} {score}"
-msgstr "{battleIcon}{regionName} {score} bölgesinde isyan"
+msgstr "{battleIcon}{regionName} {score} isyanı"
 
 #: src/components/_military/battle/BattleName.tsx:146
 msgid "{battleIcon}Revolution battle {score}"
@@ -114,7 +114,7 @@ msgstr "{battleIcon}{tournamentName} turnuvasını kazanmak için {score}"
 
 #: src/components/_military/battle/BattleName.tsx:136
 msgid "{battleIcon}War battle for {regionName} {score}"
-msgstr "{battleIcon}{regionName} bölgesinde savaş {score}"
+msgstr "{battleIcon}{regionName} savaşı {score}"
 
 #: src/components/_user/mission/MissionsList.tsx:171
 msgid "{completedCount}/{totalCount} completed"
@@ -328,12 +328,12 @@ msgstr "<1/> partisindeki ön seçimi <0/> kazandı ve artık başkanlık yarı�
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:783
 msgid "<0/> won the round <1>#{0}</1> in <2/>"
-msgstr "<0/>, <2/> bölgesinde <1>#{0}</1>. turu kazandı"
+msgstr "<0/>, <2/> savaşında <1>#{0}</1>. turu kazandı"
 
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:789
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
-msgstr "<0/>, <2/> bölgesinde <1>#{0}</1>. turu kazandı!"
+msgstr "<0/>, <2/> savaşında <1>#{0}</1>. turu kazandı!"
 
 #: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
@@ -1323,7 +1323,7 @@ msgstr "Dengeli - Değiştirici yok"
 
 #: src/pages/user/[userId]/bans.tsx:288
 msgid "Ban History"
-msgstr ""
+msgstr "Yasaklanma Geçmişi"
 
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
@@ -1493,11 +1493,11 @@ msgstr "Askeri birliği kur"
 
 #: src/pages/user/[userId]/bans.tsx:181
 msgid "Buy"
-msgstr ""
+msgstr "Satın Alma"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
-msgstr "Pazarda <0>{count}</0> sikkeye satın al"
+msgstr "Pazarda <0>{count}</0> tutarında paraya satın al"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:164
 msgid "Buy Items"
@@ -1954,7 +1954,7 @@ msgstr "Tüketmek {0}s boyunca <0>Saldırı</0> gücünü artırır.<1/> Sonra {
 
 #: src/components/_layout/LayoutMapOptions.tsx:260
 msgid "Contextual borders"
-msgstr "Bağlamsal sınırlar"
+msgstr "Değişken sınırlar"
 
 #: src/utils/translations.tsx:39
 msgid "Cooked Fish"
@@ -2735,7 +2735,7 @@ msgstr "Başka iş bul"
 
 #: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
-msgstr "Para cezası ver"
+msgstr "Para cezası ver (parayı hesaptan sil)"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:202
 msgid "Fire"
@@ -2857,7 +2857,7 @@ msgstr "hediye edildi"
 
 #: src/components/_user/user/UserDropdown.tsx:333
 msgid "Give badge"
-msgstr ""
+msgstr "Rozet ver"
 
 #: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
@@ -2865,7 +2865,7 @@ msgstr "Para ver"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:251
 msgid "Give your token a descriptive name so you can identify it later."
-msgstr "Jetonunuza daha sonra tanıyabilmeniz için açıklayıcı bir isim verin."
+msgstr "Tokenınıza daha sonra tanıyabilmeniz için açıklayıcı bir isim verin."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1560
 msgid "Giveaway Ended"
@@ -3324,7 +3324,7 @@ msgstr "<0/>'ı kurtar ve orijinal ülkesine geri ver"
 
 #: src/components/_political/law/law.frontConfig.tsx:323
 msgid "Liberate a region"
-msgstr "Bölgeyi kurtar"
+msgstr "Bir bölgeye bağımsızlık verin"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:86
 msgid "Lieutenant"
@@ -3430,7 +3430,7 @@ msgstr "Yağmalanmış kasalar"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:728
 msgid "Looted money"
-msgstr "Yağmalanmış sikke"
+msgstr "Yağmalanan para"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
@@ -3517,7 +3517,7 @@ msgstr "Ortaçağ Eldiveni"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:56
 msgid "Medieval Helmet"
-msgstr "Ortaçağ Kaskı"
+msgstr "Ortaçağ Miğferi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:74
 msgid "Medieval Iron Arrow"
@@ -3633,19 +3633,19 @@ msgstr "Paralı asker sözleşmelerinden kazanılan para."
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:132
 msgid "Money ranking"
-msgstr "Sikke sıralaması"
+msgstr "Parasal sıralama"
 
 #: src/components/_political/event/EventList.tsx:69
 msgid "Money transfer"
-msgstr "Sikke transferi"
+msgstr "Para transferi"
 
 #: src/components/_user/referral/ReferralList.tsx:115
 msgid "Money won"
-msgstr "Sikke kazanıldı"
+msgstr "Para kazanıldı"
 
 #: src/components/_user/referral/ReferralList.tsx:79
 msgid "Money Won"
-msgstr "Sikke Kazanıldı"
+msgstr "Para Kazanıldı"
 
 #: src/components/_layout/MoreButtonNav.tsx:194
 msgid "More"
@@ -3744,7 +3744,7 @@ msgstr "Mistik Eldivenler"
 
 #: src/utils/translations.tsx:168
 msgid "Mythic Helmet"
-msgstr "Mistik Kask"
+msgstr "Mistik Miğfer"
 
 #: src/utils/translations.tsx:204
 msgid "Mythic Pants"
@@ -4550,7 +4550,7 @@ msgstr "Başka bir ülkeye barış öner"
 #. placeholder {0}: law.data.amount ?? 0
 #: src/components/_political/law/law.frontConfig.tsx:312
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
-msgstr "<1/> ülkesinden <2>{0}</2> sikkeye <0/> bölgesini satın almayı öner"
+msgstr "<1/> ülkesinden <2>{0}</2> tutarında paraya <0/> bölgesini satın almayı öner"
 
 #: src/components/_political/law/law.frontConfig.tsx:306
 msgid "Propose to buy a region"
@@ -4597,7 +4597,7 @@ msgstr "Sıralamalar"
 
 #: src/components/_layout/LayoutRightIcons.tsx:313
 msgid "Ranks"
-msgstr "Rütbeler"
+msgstr "Sıralamalar"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:128
 msgid "Raw materials:"
@@ -4738,7 +4738,7 @@ msgstr "Bölge satın alma teklifi"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1048
 msgid "Region is revolting!"
-msgstr "Bölge isyan ediyor!"
+msgstr "Bölgede isyan çıktı!"
 
 #: src/components/_political/event/EventList.tsx:68
 msgid "Region liberated"
@@ -4774,7 +4774,7 @@ msgstr "Güçlendirilmiş Eldivenler"
 
 #: src/utils/translations.tsx:164
 msgid "Reinforced Helmet"
-msgstr "Güçlendirilmiş Kask"
+msgstr "Güçlendirilmiş Miğfer"
 
 #: src/utils/translations.tsx:200
 msgid "Reinforced Pants"
@@ -4981,7 +4981,7 @@ msgstr "Tur #{0}"
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:804
 msgid "Round <0>#{0}</0> in <1/> is about to end!"
-msgstr "<1/> bölgesindeki <0>#{0}</0>. tur bitmek üzere!"
+msgstr "<1/> savaşında <0>#{0}</0>. tur bitmek üzere!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:802
 msgid "Round about to end"
@@ -5118,7 +5118,7 @@ msgstr "Şirketlerinde <0>{count}</0> kez kendi işini yap"
 
 #: src/pages/user/[userId]/bans.tsx:206
 msgid "Sell"
-msgstr ""
+msgstr "Satış"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5126,7 +5126,7 @@ msgstr "Şirketi sat?"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:196
 msgid "Sell for <0>{count}</0> money on market"
-msgstr "Pazarda <0>{count}</0> sikkeye sat"
+msgstr "Pazarda <0>{count}</0> tutarında paraya sat"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:54
 msgid "Sell it, you need to buy more cases to gamble!"
@@ -5273,7 +5273,7 @@ msgstr "Daha fazla göster"
 
 #: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
-msgstr ""
+msgstr "Yalnızca olumlu puana sahip makaleleri göster (puan ≥ -5) "
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
@@ -5648,7 +5648,7 @@ msgstr "İyi hissettiriyor, değil mi?"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
-msgstr "Burası şirket merkezin. Burada eşya üretebilir ve imparatorluğunu kurabilirsin."
+msgstr "Burası şirket merkezin. Burada eşya üretebilir ve ticaret imparatorluğunu kurabilirsin."
 
 #: src/components/_political/law/LawTypeSelect.tsx:182
 msgid "This law can be abusive and requires 5+ possible voters in the country."
